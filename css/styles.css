@@ -9,6 +9,7 @@
   --background-page-color: #e5e5e5;
   --border-color-galery: #eeeeee;
   --border-color-header: #ececec;
+  --icon-color-1: #afb1b8;
 }
 /*conteners */
 * {
@@ -100,7 +101,10 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-text-black);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .nav:hover,
 .nav:focus {
   color: var(--brand-color-one);
@@ -113,18 +117,32 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-grey);
+  fill:var(--brand-color-grey)
 }
 .mail-header {
-  max-width: 135px;
-  margin-right: 50px;
+  padding-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.envelope{
+  margin-right: 10px;
+}
+.telephone{
+  margin-right: 10px;
 }
 .mail-header:hover,
 .tel-header:hover {
   color: var(--brand-color-one);
+  fill:var(--brand-color-one)
 }
 .mail-header:focus,
 .tel-header:focus {
   color: var(--brand-color-one);
+  fill:var(--brand-color-one)
+}
+.tel-header{
+  padding-top: 33px;
+  padding-bottom:31px;
 }
 /*Style Studio.html; fonts*/
 .slogan {
@@ -161,17 +179,15 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  
 }
-.attitude-image{
+.attitude-image {
   width: 270px;
- height: 120px;
+  height: 120px;
   border-radius: 4px;
-  background-color:var(--brand-color-background-team);
+  background-color: var(--brand-color-background-team);
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 .atuty-title {
   font-weight: 700;
@@ -244,12 +260,31 @@ ul {
   letter-spacing: 0.03em;
   color: var(--brand-color-grey);
   padding-bottom: 30px;
-
 }
-.our-custommers{
-  display:flex;
+.our-custommers {
+  display: flex;
   flex-direction: column;
   gap: 50px;
+}
+.custommer-logo-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box-custommers {
+  width: 170px;
+  height: 92px;
+  fill: var(--icon-color-1);
+  border: 1px solid var(--icon-color-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-custommers:hover{
+  border: 1px solid var(--brand-color-one);
+  fill: var(--brand-color-one);
+  cursor: pointer;
 }
 /*Style buttons*/
 
