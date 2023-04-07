@@ -29,6 +29,7 @@ body {
 header {
   border-bottom: 1px solid var(--border-color-header);
 }
+
 .box-header {
   background-color: var(--brand-color-white);
   display: flex;
@@ -44,7 +45,7 @@ header {
   justify-content: flex-start;
   gap: 46px;
   padding-left: 0;
-  padding-right: 371px;
+  padding-right: 345px;
 }
 
 .buttons {
@@ -160,6 +161,17 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  
+}
+.attitude-image{
+  width: 270px;
+ height: 120px;
+  border-radius: 4px;
+  background-color:var(--brand-color-background-team);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .atuty-title {
   font-weight: 700;
@@ -167,12 +179,14 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 .atuty-content {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--brand-color-grey);
+  padding-top: 10px;
 }
 .section-title {
   font-weight: 700;
@@ -230,6 +244,12 @@ ul {
   letter-spacing: 0.03em;
   color: var(--brand-color-grey);
   padding-bottom: 30px;
+
+}
+.our-custommers{
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
 }
 /*Style buttons*/
 
