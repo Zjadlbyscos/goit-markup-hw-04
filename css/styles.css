@@ -157,8 +157,15 @@ ul {
   max-width: 696px;
   max-height: 120px;
 }
+
 .box-slogan {
   background: var(--brand-color-background-darc);
+
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4), url(/images/background-slogan.jpg));
 }
 .flex-slogan {
   display: flex;
