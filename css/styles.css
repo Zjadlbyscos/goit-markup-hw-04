@@ -102,8 +102,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-text-black);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 .nav:hover,
@@ -122,8 +121,7 @@ ul {
 }
 .mail-header {
   padding-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 .envelope {
   margin-right: 10px;
@@ -160,12 +158,11 @@ ul {
 
 .box-slogan {
   background: var(--brand-color-background-darc);
-
+ background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(/images/background-slogan.jpg);
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
-  background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4), url(/images/background-slogan.jpg));
+  
 }
 .flex-slogan {
   display: flex;
@@ -432,11 +429,18 @@ footer {
   display: flex;
   flex-direction: row;
   gap:10px;
-  padding-left:70px;
+}
+.box-join-us{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  padding-left: 70px;
   padding-top: 72px;
 }
 .join-us{
-  color:var(--brand-color-white)
+  color:var(--brand-color-white);
+  font-weight: 700;
+  font-size: 14px;
 
 }
 .footer-container{
