@@ -59,7 +59,6 @@ header {
 }
 .box-gallery {
   padding-top: 56px;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
