@@ -68,8 +68,13 @@ header {
 }
 .gallery {
   border-bottom: 1px solid var(--border-color-galery);
+  box-shadow: none;
 }
-
+.gallery:hover,.gallery:focus{
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+  0px 1px 1px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
 /* Fonf styles and pseudoclasses*/
 .logo {
   font-family: "Raleway";
@@ -156,7 +161,7 @@ ul {
 
 .box-slogan {
   background: var(--brand-color-background-darc);
- background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(/images/background-slogan.jpg);
+ background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(./images/background-slogan.jpg);
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
@@ -328,6 +333,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+  cursor: pointer;
+  box-shadow: none;
 }
 .button:hover,
 .button:focus {
@@ -449,6 +456,6 @@ footer {
 .elipse.footer{
   background-color: var(--icon-color-2);
 }
-.elipse.footer:hover{
+.elipse.footer:hover,.elipse.footer:focus{
   background-color: var(--brand-color-one);
 }
