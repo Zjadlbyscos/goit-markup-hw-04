@@ -10,7 +10,7 @@
   --border-color-galery: #eeeeee;
   --border-color-header: #ececec;
   --icon-color-1: #afb1b8;
-  --icon-color-2:rgba(255, 255, 255, 0.1);
+  --icon-color-2: rgba(255, 255, 255, 0.1);
 }
 /*conteners */
 * {
@@ -70,9 +70,10 @@ header {
   border-bottom: 1px solid var(--border-color-galery);
   box-shadow: none;
 }
-.gallery:hover,.gallery:focus{
+.gallery:hover,
+.gallery:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-  0px 1px 1px rgba(0, 0, 0, 0.12);
+    0px 1px 1px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 /* Fonf styles and pseudoclasses*/
@@ -108,7 +109,6 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-text-black);
-  
 }
 
 .nav:hover,
@@ -127,7 +127,6 @@ ul {
 }
 .mail-header {
   padding-right: 50px;
-  
 }
 .envelope {
   margin-right: 10px;
@@ -161,11 +160,11 @@ ul {
 
 .box-slogan {
   background: var(--brand-color-background-darc);
- background: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(./images/background-slogan.jpg);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("/images/background-slogan.jpg");
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
-  
 }
 .flex-slogan {
   display: flex;
@@ -285,7 +284,7 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
-  cursor:pointer;
+  cursor: pointer;
 }
 .elipse:hover {
   background-color: var(--brand-color-one);
@@ -293,7 +292,7 @@ ul {
 .social-icon {
   fill: var(--icon-color-1);
 }
-.social-icon:hover{
+.social-icon:hover {
   fill: var(--brand-color-white);
 }
 .our-custommers {
@@ -316,7 +315,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.box-custommers:hover{
+.box-custommers:hover {
   border: 1px solid var(--brand-color-one);
   fill: var(--brand-color-one);
   cursor: pointer;
@@ -430,32 +429,32 @@ footer {
 .tel-footer:focus {
   color: var(--brand-color-one);
 }
-.social-footer{
+.social-footer {
   display: flex;
   flex-direction: row;
-  gap:10px;
+  gap: 10px;
 }
-.box-join-us{
+.box-join-us {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
   padding-left: 70px;
   padding-top: 72px;
 }
-.join-us{
-  color:var(--brand-color-white);
+.join-us {
+  color: var(--brand-color-white);
   font-weight: 700;
   font-size: 14px;
-
 }
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
-.elipse.footer{
+.elipse.footer {
   background-color: var(--icon-color-2);
 }
-.elipse.footer:hover,.elipse.footer:focus{
+.elipse.footer:hover,
+.elipse.footer:focus {
   background-color: var(--brand-color-one);
 }
