@@ -160,7 +160,7 @@ ul {
 .box-slogan {
   background: var(--brand-color-background-darc);
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('/images/background-slogan.jpg');
+    url("/images/background-slogan.jpg");
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
