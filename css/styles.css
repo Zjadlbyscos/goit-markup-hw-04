@@ -10,6 +10,7 @@
   --border-color-galery: #eeeeee;
   --border-color-header: #ececec;
   --icon-color-1: #afb1b8;
+  --icon-color-2:rgba(255, 255, 255, 0.1);
 }
 /*conteners */
 * {
@@ -117,32 +118,32 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--brand-color-grey);
-  fill:var(--brand-color-grey)
+  fill: var(--brand-color-grey);
 }
 .mail-header {
   padding-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.envelope{
+.envelope {
   margin-right: 10px;
 }
-.telephone{
+.telephone {
   margin-right: 10px;
 }
 .mail-header:hover,
 .tel-header:hover {
   color: var(--brand-color-one);
-  fill:var(--brand-color-one)
+  fill: var(--brand-color-one);
 }
 .mail-header:focus,
 .tel-header:focus {
   color: var(--brand-color-one);
-  fill:var(--brand-color-one)
+  fill: var(--brand-color-one);
 }
-.tel-header{
+.tel-header {
   padding-top: 33px;
-  padding-bottom:31px;
+  padding-bottom: 31px;
 }
 /*Style Studio.html; fonts*/
 .slogan {
@@ -259,7 +260,34 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color-grey);
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
   padding-bottom: 30px;
+}
+.elipse {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  cursor:pointer;
+}
+.elipse:hover {
+  background-color: var(--brand-color-one);
+}
+.social-icon {
+  fill: var(--icon-color-1);
+}
+.social-icon:hover{
+  fill: var(--brand-color-white);
 }
 .our-custommers {
   display: flex;
@@ -392,4 +420,26 @@ footer {
 .mail-footer:focus,
 .tel-footer:focus {
   color: var(--brand-color-one);
+}
+.social-footer{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  padding-left:70px;
+  padding-top: 72px;
+}
+.join-us{
+  color:var(--brand-color-white)
+
+}
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}
+.elipse.footer{
+  background-color: var(--icon-color-2);
+}
+.elipse.footer:hover{
+  background-color: var(--brand-color-one);
 }
